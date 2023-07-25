@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/food-order-client.iml" filepath="$PROJECT_DIR$/.idea/food-order-client.iml" />
+      <module fileurl="file://$USER_HOME$/java_microservice/k8s/k8s/.idea/k8s.iml" filepath="$USER_HOME$/java_microservice/k8s/k8s/.idea/k8s.iml" />
     </modules>
   </component>
 </project>
