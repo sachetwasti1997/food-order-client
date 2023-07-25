@@ -1,11 +1,13 @@
 import React from 'react';
 import {Footer, Header} from "./Components";
+import {Home} from "./Page";
 
 function App() {
+
   return (
-    <div>
+    <div className={"min-h-screen bg-cyan-50"}>
       <Header/>
-      This is the main body for testing again
+      <Home/>
       <Footer/>
     </div>
   );
