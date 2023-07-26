@@ -11,7 +11,7 @@ const MenuList = (props: Props): JSX.Element => {
     <div className={"grid md:grid-cols-3 grid-cols-1"}>
       {props.menuItems.map(
         menu => (
-          <MenuCard menuItem={menu}/>
+          <MenuCard key={menu.id} menuItem={menu}/>
         )
       )}
     </div>

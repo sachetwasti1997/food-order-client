@@ -7,13 +7,13 @@ interface Props {
 
 const MenuCard = (props: Props): JSX.Element => {
   return (
-    <div className={"rounded-xl shadow-lg bg-white p-2 m-6 w-[1024]"}>
+    <div className={"rounded-xl shadow-lg bg-white p-2 mx-2 my-2 w-[1024]"}>
       <div
         className={"flex flex-col items-center justify-center space-y-2 md:flex-row md:justify-start md:gap-3 rounded-l-xl"}>
         <img
           src={`https://storage.googleapis.com/full_stack_application/${props.menuItem.image}`}
           alt={props.menuItem.name}
-          className={"object-fill rounded-full h-80 w-80 md:h-64 md:w-64 transform hover:scale-105"}
+          className={"object-fill rounded-full h-80 w-80 md:h-64 md:w-64"}
         />
         <div className={"flex md:items-start space-y-2 items-center flex-col"}>
           <button className={"bg-black px-4 rounded-full shadow-lg text-white text-sm"}>Free
